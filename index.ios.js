@@ -100,7 +100,7 @@ class AudioVideoReactNative extends Component {
             selected: '',
             textParams: [],
         };
-
+	
         // RNFS.readDir(RNFS.DocumentDirectoryPath)
         //   .then((result) => {
         //       console.log('GOT RESULT', result);
@@ -336,5 +336,6 @@ class AudioVideoReactNative extends Component {
       );
     }
 }
+
 
 AppRegistry.registerComponent('AudioVideoReactNative', () => AudioVideoReactNative);
